@@ -120,11 +120,11 @@ spreadsheet = [
 
 
 # ==========================================
-# Execução dos 11 Casos da Tabela 2.5
+# Execução
 # ==========================================
 
 # 1. Caso Válido
-c1 = "= A1 + (B2 + 10) * 3;"
+c1 = "= A1 * 3;"
 t1 = scanner_spreadscript(c1)
 res1 = avaliador_spreadscript(t1, spreadsheet)
 print(f"Entrada: '{c1}' -> Resultado: {res1}\n")
